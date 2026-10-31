@@ -23,6 +23,8 @@
       </nav>
     </div>
   </header>
+
+
   <main id="conteudo">
     <section class="plans-page-section dark" id="online"><div class="container plans-page-grid">
       <div class="copy"><p class="kicker">Flexibilidade e planejamento</p><h2>Consultoria online</h2><p class="lead">Treine com estratégia, de onde estiver.</p><p>Planejamento individualizado, orientação técnica e ajustes conforme seus objetivos, sua rotina e sua evolução.</p><div class="included"><div><strong>Treino individualizado</strong><p>Planejamento de acordo com seus objetivos.</p></div><div><strong>Progressão planejada</strong><p>Organização dos treinos ao longo do processo.</p></div><div><strong>Orientação técnica</strong><p>Instruções para a execução dos exercícios.</p></div><div><strong>Ajustes mensais</strong><p>Adaptações conforme sua evolução.</p></div></div></div>
@@ -35,7 +37,16 @@
     <section class="section dark final"><div class="container center"><p class="kicker">Seu próximo passo</p><h2>Seu máximo. Todos os dias.</h2><p>Fale com Herbert e descubra qual acompanhamento faz mais sentido para seus objetivos.</p><div class="button-row center-row"><a class="btn btn-primary" href="https://wa.me/5551980130227?text=Ol%C3%A1%2C%20Herbert!%20Vim%20pela%20p%C3%A1gina%20de%20planos%20do%20site%20e%20gostaria%20de%20consultar%20as%20condi%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer"><span>Falar com o coach</span></a><a class="btn btn-ghost" href="index.html"><span>Voltar ao início</span></a></div></div></section>
   </main>
   <footer class="site-footer"><div class="container footer-main"><a class="brand" href="index.html#inicio"><img class="brand-logo" src="assets/images/coach-max-logo-white.png" alt="Coach Max — Seu máximo. Todos os dias."></a><div class="footer-info"><strong>Herbert Máximo</strong><span>Profissional de Educação Física</span><span>CREF 043758-G/RS</span></div><div class="footer-info"><strong>Instagram</strong><a href="https://www.instagram.com/maximo_herbert/" target="_blank" rel="noopener noreferrer">@maximo_herbert</a></div></div><div class="container footer-bottom"><span>© <span id="current-year"></span> Coach Max. Todos os direitos reservados.</span><a href="index.html#inicio">Voltar ao início ↑</a></div></footer>
-  <a class="floating-wa" href="https://wa.me/5551980130227" target="_blank" rel="noopener noreferrer" aria-label="Falar com Herbert pelo WhatsApp">WhatsApp</a>
+```html
+<a
+  class="floating-wa"
+  href="https://wa.me/5551980130227?text=Ol%C3%A1%2C%20Herbert!%20Vim%20pelo%20site%20Coach%20Max%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Conversar com Herbert pelo WhatsApp"
+>
+  <span>WhatsApp</span>
+</a>
   <script src="js/script.js" defer></script>
   <script>const tipo=new URLSearchParams(location.search).get('tipo');if(tipo==='presencial')setTimeout(()=>document.querySelector('#presencial')?.scrollIntoView({behavior:'smooth'}),100);else if(tipo==='online')setTimeout(()=>document.querySelector('#online')?.scrollIntoView({behavior:'smooth'}),100);</script>
 </body>
