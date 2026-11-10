@@ -104,7 +104,7 @@ p{margin:0 0 1em}
 .frame-inner{position:absolute;inset:0;border-radius:var(--r);overflow:hidden;background:var(--navy);isolation:isolate;box-shadow:0 30px 70px rgba(11,23,48,.22)}
 .frame-inner img{width:100%;height:100%;object-fit:cover;transform:translate3d(0,var(--py,0),0) scale(1.02);will-change:transform;object-position:center top}
 /* Enquadramentos fotográficos: prioriza rostos e mantém contexto da atividade. */
-  .card .frame-wide .photo-online{object-position:50% 70% !important;transform:translate3d(0,var(--py,0),0) scale(1.01)}
+   .card .frame-wide .photo-online{object-position:50% 56% !important;transform:translate3d(0,var(--py,0),0) scale(1.01)}
   .card .frame-wide .photo-presencial{object-position:50% 45% !important;transform:translate3d(0,var(--py,0),0) scale(1.01)}
   #sobre .photo-running-pair{object-position:50% 28% !important;transform:translate3d(0,var(--py,0),0) scale(1.01)}
 .frame:not(.hero-frame)::before{content:"";position:absolute;inset:0;border:2px solid var(--blue);border-radius:var(--r);transform:translate(16px,16px);opacity:.55;transition:transform .8s var(--ease)}
