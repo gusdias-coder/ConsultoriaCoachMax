@@ -176,7 +176,7 @@
     { id: "Trimestral", label: "Plano Trimestral", sub: "Para construir consistência · 3 meses", note: "construir consistência ao longo de três meses", rec: true }
   ];
   const makeMsg = (service, p) =>
-    `Olá, Herbert! Vim pelo site e tenho interesse na ${service}, no ${p.label} (${p.sub.split(" · ")[1]}). Quero ${p.note}. Pode me passar as condições e o investimento?`;
+    `Olá, Coach Max! Vim pelo site e tenho interesse na ${service}, no ${p.label} (${p.sub.split(" · ")[1]}). Quero ${p.note}. Pode me passar as condições e o investimento?`;
 
   $$(".plans").forEach((box) => {
     const service = box.dataset.service, name = "plano-" + box.dataset.group;
